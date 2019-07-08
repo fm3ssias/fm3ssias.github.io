@@ -31,8 +31,13 @@ layout: compress
     </style>
 
 </head>
+<style>
+    body{
+        background-color: #000000
+    }
+</style>
 <body>
-
+    
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
             <div class="post">
