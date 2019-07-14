@@ -591,14 +591,14 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+  color: #820000;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
 h1 {
   font-size: 3rem;
   letter-spacing: -1px;
-  color: #222;
+  color: #FFFAFA;
   font-weight: 700; }
 
 h2 {
@@ -611,12 +611,12 @@ h4 {
   font-size: 1.6rem; }
 
 a {
-  color: #ffffff;
+  color: #FFFAFA;
   text-decoration: underline; }
 
 p {
   line-height: 1.7;
-  color: #820000;
+  color: #FFFAFA;
   font-weight: 300;
   margin-bottom: 20px;
   letter-spacing: 0.4px; }
@@ -626,7 +626,7 @@ p {
 
 strong {
   font-weight: 400;
-  color: #000; }
+  color: #820000; }
 
 ul li,
 ol li {
@@ -788,11 +788,12 @@ pre {
   margin: 0;
   width: 75%;
   font-weight: 500;
+  color: #FFFAFA;
   transition: all ease-in-out 0.2s; }
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
 .projects > .list > .item:hover > .url > .title {
-  color: #ffffff; }
+  color: #820000; }
 .home > .list aside,
 .blog > .list aside,
 .projects > .list aside {
@@ -835,7 +836,8 @@ pre {
   margin-top: 125px; }
   .post > .title {
     text-align: center;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    color: #820000; }
   .post > .date,
   .post > .post-tags {
     color: #aaa;
@@ -942,7 +944,7 @@ pre {
     transition: all ease-in-out 0.2s;
     font-size: 1.6rem; }
   .tag-list > .list > .item:hover > .url > .title {
-    color: #ffffff; }
+    color: #FFFAFA; }
   .tag-list > .list aside {
     position: relative;
     top: 2px;
@@ -1060,7 +1062,7 @@ pre {
       display: inherit;
       margin: 0; }
       .footer-main > .link > .icon:hover {
-        fill: #ffffff !important; }
+        fill: #FFFAFA !important; }
   .footer-main > .extra {
     color: #aaa;
     margin-top: 0; }
@@ -1344,7 +1346,7 @@ pre {
     height: 35px;
     width: 35px; }
     .social-links > .link:hover > .icon {
-      fill: #ffffff; }
+      fill: #FFFAFA; }
     .social-links > .link:hover:before {
       opacity: 1;
       display: inline-block;
@@ -1612,7 +1614,17 @@ pre {
 
 <figure class="highlight"><pre><code class="language-raw" data-lang="raw">{ % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }</code></pre></figure>
 
-<p>true<script src="https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js"> </script></p>
+<noscript><pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Just a Test!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Working!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></noscript>
+<script src="https://gist.github.com/sergiokopplin/91ff4220480727b47224245ee2e9c291.js"> </script>
 
 <hr />
 
@@ -1778,27 +1790,6 @@ pre {
 </section>
 
 
-
-
-    <section class="disqus">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-
-        var disqus_config = function () {
-            this.page.url = 'http://localhost:4000/markdown-extra-components/';
-            this.page.identifier = '/markdown-extra-components';
-        };
-        var disqus_shortname = 'mydisqus';
-        var disqus_developer = 0;
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
 
 
 
