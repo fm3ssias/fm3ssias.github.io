@@ -744,17 +744,17 @@ pre {
     opacity: 1;
     transform: translateY(0); } }
 .home,
-.blog,
+.articles,
 .projects {
   margin-top: 125px; }
   .home > .list,
-  .blog > .list,
+  .articles > .list,
   .projects > .list {
     border-top: 1px solid #171717;
     margin-top: 30px;
     padding-top: 40px; }
     .home > .list:before,
-    .blog > .list:before,
+    .articles > .list:before,
     .projects > .list:before {
       display: block;
       content: " ";
@@ -770,20 +770,20 @@ pre {
       border-radius: 3px; }
 
 .home > .list > .item,
-.blog > .list > .item,
+.articles > .list > .item,
 .projects > .list > .item {
   display: block;
   width: 95%;
   margin: 0 auto; }
 .home > .list > .item > .url,
-.blog > .list > .item > .url,
+.articles > .list > .item > .url,
 .projects > .list > .item > .url {
   width: 100%;
   display: block;
   padding: 20px 0;
   text-decoration: none; }
 .home > .list > .item > .url > .title,
-.blog > .list > .item > .url > .title,
+.articles > .list > .item > .url > .title,
 .projects > .list > .item > .url > .title {
   margin: 0;
   width: 75%;
@@ -791,11 +791,11 @@ pre {
   color: #FFFAFA;
   transition: all ease-in-out 0.2s; }
 .home > .list > .item:hover > .url > .title,
-.blog > .list > .item:hover > .url > .title,
+.articles > .list > .item:hover > .url > .title,
 .projects > .list > .item:hover > .url > .title {
   color: #820000; }
 .home > .list aside,
-.blog > .list aside,
+.articles > .list aside,
 .projects > .list aside {
   position: relative;
   top: 2px;
@@ -807,14 +807,14 @@ pre {
   text-align: right;
   transition: all ease-in-out 0.2s; }
 .home > .list .item:hover .url aside,
-.blog > .list .item:hover .url aside,
+.articles > .list .item:hover .url aside,
 .projects > .list .item:hover .url aside {
   color: #820000; }
 
-.blog > .list > .item > .url > .title,
+.articles > .list > .item > .url > .title,
 .projects > .list > .item > .url > .title {
   display: inline; }
-.blog > .list > .item > .url > .emoji,
+.articles > .list > .item > .url > .emoji,
 .projects > .list > .item > .url > .emoji {
   display: inline;
   position: relative;
@@ -874,17 +874,17 @@ pre {
     max-height: 120px;
     display: block;
     margin: 0 auto; }
-  .post > .blog-navigation {
+  .post > .articles-navigation {
     font-size: 1.4rem;
     display: block;
     width: auto;
     overflow: hidden; }
-    .post > .blog-navigation a {
+    .post > .articles-navigation a {
       display: block;
       width: 50%;
       float: left;
       margin: 1em 0; }
-    .post > .blog-navigation .next {
+    .post > .articles-navigation .next {
       text-align: right; }
 
 .tags {
@@ -1434,7 +1434,7 @@ pre {
         
             
                 <li class="item">
-                    <a class="link" href="http://localhost:4000/blog">Blog</a>
+                    <a class="link" href="http://localhost:4000/articles">Articles</a>
                 </li>
             
         
@@ -1665,7 +1665,7 @@ pre {
 
 
 
-    <div class="blog-navigation">
+    <div class="articles-navigation">
         
             <a class="prev"></a>
         
