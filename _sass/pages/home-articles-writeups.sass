@@ -1,13 +1,12 @@
 .home,
-.blog,
-.projects
+.articles,
+.writeups
     margin-top: 125px
 
     > .list
         border-top: 1px solid $epsilon
         margin-top: 30px
         padding-top: 40px
-        position: relative
 
         &:before
             display: block
@@ -24,8 +23,8 @@
             border-radius: 3px
 
 .home > .list,
-.blog > .list,
-.projects > .list
+.articles > .list,
+.writeups > .list
     > .item
         display: block
         width: 95%
@@ -41,10 +40,11 @@
         margin: 0
         width: 75%
         font-weight: 500
+        color: $delta
         transition: all ease-in-out .2s
 
     > .item:hover > .url > .title
-        color: $delta
+        color: $alpha
 
     // maybe we can't nest html5 elements
     // can you help me?
@@ -62,8 +62,8 @@
     .item:hover .url aside
         color: $alpha
 
-.blog > .list > .item > .url,
-.projects > .list > .item > .url
+.articles > .list > .item > .url,
+.writeups > .list > .item > .url
     > .title
         display: inline
 
