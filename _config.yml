@@ -1,13 +1,13 @@
 # main text of home
 name: Filipe Messias
-bio: or "fm3ssias" for a change
+bio: "'fm3ssias'"
 
 # twitter summary info
 description: A blog about technology, info sec and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
@@ -48,7 +48,7 @@ github: fm3ssias
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-#medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: filipe.messias@protonmail.com
@@ -56,7 +56,7 @@ email: filipe.messias@protonmail.com
 authors:
     fm3ssias:
         name: Filipe Messias
-        bio: or "fm3ssias" for a change
+        bio: "'fm3ssias'"
         external-image: false
         picture: assets/images/profile.jpg
         twitter: fm3ssias
@@ -68,8 +68,8 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+#paginate: 5
+#paginate_path: "blog/:num/"
 
 # if you don't need writeups, comment the *writeups* configs below
 writeups: true
