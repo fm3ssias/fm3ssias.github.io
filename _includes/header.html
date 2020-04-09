@@ -1,5 +1,5 @@
 {% if page.title == "Home"
-   or page.title == "Articles"
+   or page.title == "Blog"
    or page.title == "Writeups"
    or page.title == "Tags"
 %}{% assign showHeader = true %}{% endif %}
@@ -7,17 +7,36 @@
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </a>
+            {% if page.title == "Home" %}
+                <a class="link" href="{{ site.url }}/about">
+                    <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                </a>
+
+                <h1 class="title">{{ site.name }}</h1>
+                <h2 class="description">{{ site.bio }}</h2>
+
+            {% else %}
+
+                {% if page.title == "Writeups" %}
+                    <h1 class="title">{{ page.title }}</h1>
+                    <h2 class="description">Some solutions of CTF challs played and HTB machines </h2>
+                {% else %}
+                    {% if page.title == "Blog" %}
+                        <h1 class="title">{{ page.title }}</h1>
+                        <h2 class="description">Stuffs that i learned in CyberSec world</h2>
+                    {% else %}
+                        <h1 class="title">{{ page.title }}</h1>
+                        
+                    {% endif %}
+                {% endif %}
+            {% endif %}
         {% else %}
             <span class="link">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </span>
         {% endif %}
 
-        <h1 class="title">{{ site.name }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
+        
 
         {% include social-links.html %}
     </header>
