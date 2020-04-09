@@ -1,17 +1,17 @@
 ---
-# articles page must be named index.html and in its own folder to support pagination
+# blog page must be named index.html and in its own folder to support pagination
 # https://jekyllrb.com/docs/pagination/
 layout: page
-title: Articles
+title: Blog
 ---
 <section class="list">
 	{% if site.posts.size == 0 %}
 		<p class="text-center">Nada publicado ainda!</p>
 	{% elsif site.paginate %}
 		{% for post in paginator.posts %}
-			{% if post.category == 'articles' %}
+			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-					{% include articles-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
@@ -19,9 +19,9 @@ title: Articles
 		{% include pagination.html%}
 	{% else %}
 		{% for post in site.posts %}
-			{% if post.category == 'articles' %}
+			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-					{% include articles-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
