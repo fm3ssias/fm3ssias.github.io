@@ -33,12 +33,12 @@ layout: compress
 </head>
 <style>
     body{
-        background-color: #000000
+        background-color: #111111
     }
 </style>
 <body>
     
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+    <div class="wrapper-{% if site.width == "normal" %}large{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
             <div class="post">
         {% else %}

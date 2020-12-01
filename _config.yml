@@ -1,19 +1,19 @@
 # main text of home
 name: Filipe Messias
-bio: "'fm3ssias'"
+bio: "aka 'fm3ssias'"
 
 # twitter summary info
-description: A blog about technology, info sec and stuff related
+description: A blog about technology, hacking and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
-picture: assets/images/profile.jpg
+external-image: false
+picture: assets/images/profile.gif
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
 url: https://fm3ssias.github.io
@@ -35,7 +35,7 @@ permalink: /:title/
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: fm3ssias
+twitter: fm3ss1as
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -58,7 +58,7 @@ authors:
         name: Filipe Messias
         bio: "'fm3ssias'"
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/profile.gif
         twitter: fm3ssias
 
 
