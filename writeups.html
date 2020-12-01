@@ -3,11 +3,11 @@ layout: page
 title: Writeups
 ---
 <section class="list">
-    {% if site.posts.size == 0 %}
+    <!--{% if site.posts.size == 0 %}
         <p class="text-center">Wait for it... </p>
-    {% endif %}
+     {% endif %}
     {% for post in site.posts %}
-        {% if post.writeups %}
+        {% if post.category == 'writeups' %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
                     <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
@@ -15,5 +15,31 @@ title: Writeups
                 </a>
             </div>
         {% endif %}
-    {% endfor %}
+    {% endfor %} -->
+
+
+    {% if site.posts.size == 0 %}
+        <p class="text-center">Wait for it... </p>
+    {% elsif site.paginate %}
+        {% for post in posts %}]
+			{% if post.category == 'writeups' %}
+                <div class="item {% if post.star %}star{% endif %}">
+                    <a class="url" href="{{ site.url }}{{ post.url }}">
+                        <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                        <h3 class="title">{{ post.title }}</h3>
+                    </a>
+                </div>
+			{% endif %}
+		{% endfor %}
+
+		{% include pagination.html%}
+	{% else %}
+		{% for post in site.posts %}
+			{% if post.category == 'writeups' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
 </section>
