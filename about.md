@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image](/assets/images/profile.gif)
 
-<p>Aqui estarei compartilhando minha jornada como bug bounty hunter, como uma maneira de reforçar o conhecimento adquirido, servir de referencia pra quem estiver meio perdido nesse mundo, como estive (e ainda acontece) várias vezes, e ter aqui uma espécie de resumo para recorrer quando necessário. Também estarei colocando alguns writeups do HackTheBox e dos CTFs que jogo as vezes nos finais de semana! Stay Curious! 🚀 </p>
+<p>Estarei compartilhando minha jornada como bug bounty hunter, como uma maneira de reforçar o conhecimento adquirido, servir como mais um recurso pra quem estiver entrando nesse mundo, e ter aqui uma espécie de resumo para eu recorrer quando necessário. Também estarei colocando alguns writeups do HackTheBox e dos CTFs que jogo as vezes nos finais de semana! Stay Curious! 🚀 </p>
 
 <!-- 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
