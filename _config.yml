@@ -1,14 +1,14 @@
 # main text of home
-name: Filipe Messias
-bio: "aka 'fm3ssias'"
+name: dedgits
+bio: "Bug Bounty | HackTheBox | CTF"
 
 # twitter summary info
-description: A blog about technology, hacking and stuff related
+description: Bug Bounty | HackTheBox | CTF
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.gif
+picture: assets/images/profile.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -16,7 +16,7 @@ resume: false
 resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://fm3ssias.github.io
+url: https://dedgits.com
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -35,7 +35,7 @@ permalink: /:title/
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: fm3ss1as
+twitter: fm3ssias
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -51,12 +51,12 @@ github: fm3ssias
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: filipe.messias@protonmail.com
+# email: filipe.messias@protonmail.com
 
 authors:
-    fm3ssias:
-        name: Filipe Messias
-        bio: "'fm3ssias'"
+    dedgits:
+        name: dedgits
+        bio: "Stay curious!"
         external-image: false
         picture: assets/images/profile.gif
         twitter: fm3ssias
