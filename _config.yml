@@ -7,8 +7,8 @@ description: Bug Bounty | HackTheBox | CTF
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
-picture: assets/images/profile.png
+external-image: true
+picture: assets/images/profile.gif
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -58,7 +58,7 @@ authors:
         name: dedgits
         bio: "Stay curious!"
         external-image: false
-        picture: assets/images/profile.png
+        picture: assets/images/profile.gif
         twitter: fm3ssias
 
 

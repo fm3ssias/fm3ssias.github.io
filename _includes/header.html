@@ -9,9 +9,6 @@
         <style> 
             img {
               position: relative;
-              animation-name: example;
-              animation-duration: 3.5s;
-              animation-iteration-count: infinite;
               width: 125px;
               margin-bottom: 10px;
               border-radius: 0%;
@@ -19,13 +16,8 @@
               box-shadow: 0;
               opacity: 1;
             }
-            
-            @keyframes example {
-              0%   {top:0px;}
-              50%  {top:15px;}
-              100% {top:0px;}
-            }
-        </style>
+
+        </style> 
         {% if site.about %}
             {% if page.title == "Home" %}
                 <a class="link" href="{{ site.url }}/about">
