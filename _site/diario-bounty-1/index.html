@@ -8,19 +8,19 @@
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <meta name=description content="Bug Bounty | HackTheBox | CTF">
+    <meta name=description content="Pentest | CTFs | Bug Bounty">
     <meta name=author content="dedgits">
     <meta property="og:image" content="http://localhost:4000/assets/images/profile.gif">
     <meta property="og:type" content="profile">
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Diário Bounty #1 | dedgits</title>
+<title>Iniciando em Bug Bounty #1 | dedgits</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Diário Bounty #1" />
+<meta property="og:title" content="Iniciando em Bug Bounty #1" />
 <meta name="author" content="dedgits" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Meu objetivo com essa série, que será uma espécie de diário, é servir de recurso/motivação pra quem também está começando com Bug Bounty e ser fonte de revisão dos conteúdos que venho estudando ao longo do tempo a fim de fixar o conhecimento." />
-<meta property="og:description" content="Meu objetivo com essa série, que será uma espécie de diário, é servir de recurso/motivação pra quem também está começando com Bug Bounty e ser fonte de revisão dos conteúdos que venho estudando ao longo do tempo a fim de fixar o conhecimento." />
+<meta name="description" content="Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá." />
+<meta property="og:description" content="Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá." />
 <link rel="canonical" href="http://localhost:4000/diario-bounty-1/" />
 <meta property="og:url" content="http://localhost:4000/diario-bounty-1/" />
 <meta property="og:site_name" content="dedgits" />
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@dedgits" />
 <script type="application/ld+json">
-{"dateModified":"2021-04-09T22:30:00-03:00","datePublished":"2021-04-09T22:30:00-03:00","description":"Meu objetivo com essa série, que será uma espécie de diário, é servir de recurso/motivação pra quem também está começando com Bug Bounty e ser fonte de revisão dos conteúdos que venho estudando ao longo do tempo a fim de fixar o conhecimento.","url":"http://localhost:4000/diario-bounty-1/","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/diario-bounty-1/"},"image":"http://localhost:4000/assets/images/DiarioBounty/1/photo-light-3_1920x1080.png","author":{"@type":"Person","name":"dedgits"},"headline":"Diário Bounty #1","@context":"http://schema.org"}</script>
+{"description":"Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá.","url":"http://localhost:4000/diario-bounty-1/","@type":"BlogPosting","headline":"Iniciando em Bug Bounty #1","dateModified":"2021-04-09T22:30:00-03:00","datePublished":"2021-04-09T22:30:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/diario-bounty-1/"},"image":"http://localhost:4000/assets/images/DiarioBounty/1/photo-light-3_1920x1080.png","author":{"@type":"Person","name":"dedgits"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -1392,11 +1392,24 @@ pre {
     </style>
 
 </head>
+
 <style>
     body{
-        background-color: #000000
+        background-color: #000000;
+        background-image: url("/assets/images/background.png");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    ::-moz-selection{
+        background-color: red;
+        color: white;
+    }
+    ::selection{
+        background-color: red;
+        color: white;
     }
 </style>
+
 <body>
     
     <div class="wrapper-large">
@@ -1447,11 +1460,11 @@ pre {
 
 
 
-    <img class="title-image" src="/assets/images/DiarioBounty/1/photo-light-3_1920x1080.png" alt="Diário Bounty #1">
+    <img class="title-image" src="/assets/images/DiarioBounty/1/photo-light-3_1920x1080.png" alt="Iniciando em Bug Bounty #1">
 
 
-<h1 class="title">Diário Bounty #1</h1>
-<h4 class="description">Meu objetivo com essa série, que será uma espécie de diário, é servir de recurso/motivação pra quem também está começando com Bug Bounty e ser fonte de revisão dos conteúdos que venho estudando ao longo do tempo a fim de fixar o conhecimento.</h4>
+<h1 class="title">Iniciando em Bug Bounty #1</h1>
+<h4 class="description"></h4>
 
 <span class="date">
     <time datetime="09-04-2021">Friday. April 09, 2021</time>
@@ -1475,7 +1488,7 @@ pre {
     </div>
 
 
-<p>Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas (várias por sinal) que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá.</p>
+<p>Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá.</p>
 
 <p>Meu plano para o(s) primeiro(s) mês(es) é consumir o máximo possível de conteúdo que envolva bug bounty. Mesmo estando naquela euforia de querer começar logo, eu percebi/aprendi que paciência e consistência são palavras chaves quando se trata de bug bounty, então espero manter essa paciência e consistência a longo prazo. A ideia do plano inicial é familiarizar com os termos, as plataformas, os tipos de vulnerabilidades (OWASP Top 10), e claro, criar aquela base dahora pra quando de fato for caçar algum bug a gente tenha aonde recorrer (resumos de estudos e saber pesquisar).</p>
 
@@ -1706,7 +1719,7 @@ pre {
         <div class="share">
             <!-- Note: Only use three share links if your site width is set to large -->
             <!-- If site width is set to normal, you may choose any two share links -->
-            <a class="twitter" href="https://twitter.com/intent/tweet?text=http://localhost:4000/diario-bounty-1/ - Diário Bounty #1 by @fm3ssias">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=http://localhost:4000/diario-bounty-1/ - Iniciando em Bug Bounty #1 by @fm3ssias">
                 <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="icon-twitter">Tweet</span>
             </a>
             <!--
@@ -1718,11 +1731,11 @@ pre {
                 <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg><span class="icon-google-plus">Share</span>
             </a> -->
 
-            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/diario-bounty-1/&amp;title=Diário Bounty #1&amp;summary=Meu objetivo com essa série, que será uma espécie de diário, é servir de recurso/motivação pra quem também está começando com Bug Bounty e ser fonte de revisão dos conteúdos que venho estudando ao longo do tempo a fim de fixar o conhecimento.&amp;source=http://localhost:4000" target="_blank">
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/diario-bounty-1/&amp;title=Iniciando em Bug Bounty #1&amp;summary=&amp;source=http://localhost:4000" target="_blank">
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg><span class="icon-linkedin">Share</span>
             </a>
 
-            <!-- <a class="reddit" href="https://reddit.com/submit?url=http://localhost:4000/diario-bounty-1/&amp;title=Diário Bounty #1" target="_blank">
+            <!-- <a class="reddit" href="https://reddit.com/submit?url=http://localhost:4000/diario-bounty-1/&amp;title=Iniciando em Bug Bounty #1" target="_blank">
                 <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg><span class="icon-reddit">Share</span>
             </a> -->
         </div>

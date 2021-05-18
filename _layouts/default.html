@@ -31,11 +31,24 @@ layout: compress
     </style>
 
 </head>
+
 <style>
     body{
-        background-color: #000000
+        background-color: #000000;
+        background-image: url("/assets/images/background.png");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    ::-moz-selection{
+        background-color: red;
+        color: white;
+    }
+    ::selection{
+        background-color: red;
+        color: white;
     }
 </style>
+
 <body>
     
     <div class="wrapper-{% if site.width == "normal" %}large{% elsif site.width == "large" %}large{% endif %}">

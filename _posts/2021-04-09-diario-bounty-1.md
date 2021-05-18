@@ -1,5 +1,5 @@
 ---
-title: "Diário Bounty #1"
+title: "Iniciando em Bug Bounty #1"
 layout: post
 date: 2021-04-09 22:30
 image: /assets/images/DiarioBounty/1/photo-light-3_1920x1080.png
@@ -9,10 +9,10 @@ tag:
 - diario
 category: blog
 author: dedgits
-description: Meu objetivo com essa série, que será uma espécie de diário, é servir de recurso/motivação pra quem também está começando com Bug Bounty e ser fonte de revisão dos conteúdos que venho estudando ao longo do tempo a fim de fixar o conhecimento.
+description: 
 ---
 
-Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas (várias por sinal) que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá. 
+Sobre meu background, há um tempo (7 anos) eu já venho estudando computação, fiz Ciência da Computação, já trabalhei com desenvolvimento mobile, como suporte e como analista de segurança. Mesmo olhando pra trás e vendo todo esse tempo que passou, ainda me sinto um noob, e tenho muuito que aprender ainda, principalmente na área de hacking em si. Conheço e vejo pessoas que estão na área a menos tempo que eu e estão lá na frente já, mas enfim, minha intenção não é te desmotivar, nunca devemos nos comparar com os outros, mas sim com seu eu de ontem, e perceber a sua evolução. Isso ajuda muito a longo prazo. Enfim, sempre admirei o mundo do Bug Bounty e finalmente, tendo um conhecimento que julgo ser uma boa base, decidi caçar recompensas de bugs e ver no que dá. 
 
 Meu plano para o(s) primeiro(s) mês(es) é consumir o máximo possível de conteúdo que envolva bug bounty. Mesmo estando naquela euforia de querer começar logo, eu percebi/aprendi que paciência e consistência são palavras chaves quando se trata de bug bounty, então espero manter essa paciência e consistência a longo prazo. A ideia do plano inicial é familiarizar com os termos, as plataformas, os tipos de vulnerabilidades (OWASP Top 10), e claro, criar aquela base dahora pra quando de fato for caçar algum bug a gente tenha aonde recorrer (resumos de estudos e saber pesquisar). 
 
